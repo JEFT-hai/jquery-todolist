@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery-ToduList</title>
+	<!-- build:css css/combined.css -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/jquery.datetimepicker.css">
+	<!-- endbuild-->
+</head>
+<body>
+	<div class="msg">
+		<span class="msg-content"></span>
+		<span class="msg-know">知道了</span>
+	</div>
+	<div class="container">
+		<h1>今日待办</h1>
+		<form class="add-task">
+			<input name="content" type="text" placeholder="e.g.下午记得买菜" autocomplete="off">
+			<button type="submit">submit</button>
+		</form>
+		<div class="task-list">
+		</div>
+		<div class="task-detail-mask"></div>
+		<div>
+			<div class="task-detail">
+				
+			</div>
+		</div>
+	</div>
+	<video src="小黄人.mp3" class="alerter"></video>
+	<!-- build:js js/combined.js -->
+	<script src="js/store.js"></script>
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="js/jquery.datetimepicker.full.min.js"></script>
+	<script src="js/base.js"></script>
+	<!-- endbuild -->
+</body>
+</html>
